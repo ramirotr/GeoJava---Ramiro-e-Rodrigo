@@ -1,8 +1,9 @@
 import java.util.Scanner;
 
 public class GeometriaPlana {
-    public static void main(String[] args) {  
-     Scanner ler = new Scanner(System.in);  
+
+     public static void main(String[] args) {  
+            Scanner ler = new Scanner(System.in);  
         
         String circulo;
         String retangulo;
@@ -18,16 +19,6 @@ public class GeometriaPlana {
         System.out.println("Escolha uma das opções acima: ");
         opcao = ler.nextInt();
         
-        if (opcao == 1) {
-            System.out.println("Digite o raio do círculo: ");
-            double raioCirculo = ler.nextDouble();
-            public static double calculaAreaCirculo (double raio) {
-                Math.PI * Math.Pow(raio, 2);
-
-            
-
-            System.out.println("Área do Círculo: " + calculaAreaCirculo(raio));
-            }
-        }
     }
+
 }
