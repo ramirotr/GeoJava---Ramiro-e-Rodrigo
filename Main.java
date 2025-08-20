@@ -3,13 +3,11 @@ import java.util.Scanner;
 public class Main {
     static Scanner sc = new Scanner(System.in);
     public static void GeometriaPlana() {
-        // Implementação da geometria plana (não fornecida no contexto)
-        System.out.println("Função de Geometria Plana ainda não implementada.");
+        GeometriaPlana.main(new String[0]);
     }
 
     public static void GeometriaEspacial() {
-        // Implementação da geometria espacial (não fornecida no contexto)
-        System.out.println("Função de Geometria Espacial ainda não implementada.");
+        GeometriaEspacial.main(new String[0]);
     }
 
     public static void main(String[] args) {
@@ -28,7 +26,7 @@ public class Main {
                     GeometriaPlana();
                     break;
                 case 2:
-                    GeometriaEspacial.main(null);
+                    GeometriaEspacial();
                     break;
                 case 3:
                     System.out.println("Saindo...");
