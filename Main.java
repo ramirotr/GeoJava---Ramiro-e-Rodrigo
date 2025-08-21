@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+
 public class Main {
     static Scanner sc = new Scanner(System.in);
     public static void GeometriaPlana() {
@@ -30,13 +31,13 @@ public class Main {
                     break;
                 case 3:
                     System.out.println("Saindo...");
-                    break;
-                default:
+                    default:
                     System.out.println("Erro! Tente novamente.");
                     break;
             }
 
             System.out.println();
         } while (opcaoPrincipal != 3);
+         sc.close();
     }
     }

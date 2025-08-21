@@ -20,12 +20,14 @@ public class GeometriaEspacial {
                     double aresta = ler.nextDouble();
                     System.out.println("Volume do cubo: " + calculaVolumeCubo(aresta) + " cm³");
                     System.out.println("Área do cubo: " + calculaAreaCubo(aresta) + " cm²");
+                     Main.main(null);
                     break;
                 case 2:
                     System.out.print("Digite o raio da esfera (cm): ");
                     double raioEsfera = ler.nextDouble();
                     System.out.println("Volume da esfera: " + calculaVolumeEsfera(raioEsfera) + " cm³");
                     System.out.println("Área da esfera: " + calculaAreaEsfera(raioEsfera) + " cm²");
+                     Main.main(null);
                     break;
                 case 3:
                     System.out.print("Digite o raio do cilindro (cm): ");
@@ -34,9 +36,10 @@ public class GeometriaEspacial {
                     double alturaCilindro = ler.nextDouble();
                     System.out.println("Volume do cilindro: " + calculaVolumeCilindro(raioCilindro, alturaCilindro) + " cm³");
                     System.out.println("Área do cilindro: " + calculaAreaCilindro(raioCilindro, alturaCilindro) + " cm²");
+                     Main.main(null);
                     break;
                 case 4:
-                    System.out.println("Voltando ao menu principal...");
+                      Main.main(null);
                     break;
                 default:
                     System.out.println("Erro!");
@@ -44,8 +47,6 @@ public class GeometriaEspacial {
             }
             System.out.println();
         } while (opcao != 4);
-
-        ler.close();
     }
 
     // CÁLCULOS DE ÁREA E VOLUME
