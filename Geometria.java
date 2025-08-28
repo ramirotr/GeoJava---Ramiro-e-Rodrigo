@@ -13,4 +13,6 @@ public class Geometria {
     double PerimetroDoPoligono;
     double aresta;
     double volume;
+    double arredondarArea;
+    double arredondarPerimetro;
 }

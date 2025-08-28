@@ -8,7 +8,7 @@ public class Main {
         int opcaoPrincipal;
         int opcaoForma;
 
-        do {
+        do { 
             System.out.println("-=$=- MENU PRINCIPAL -=$=-");
             System.out.println("1 - Geometria Plana");
             System.out.println("2 - Geometria Espacial");
@@ -30,10 +30,11 @@ public class Main {
                     if (opcaoForma == 1) {
                         System.out.print("Digite o raio do círculo (cm): ");
                         double raio = ler.nextDouble();
-                        System.out.println("Área: " + geometria_plana.areaCirculo(raio));
-                        System.out.println("Perímetro: " + geometria_plana.perimetroCirculo(raio));
-                    } else if (opcaoForma == 2) {
-                        System.out.print("Digite a base do retângulo (cm): ");
+                        System.out.println("Área Do Círculo abaixo:");
+                        System.out.println(Math.round(+ geometria_plana.areaCirculo(raio)));
+                        System.out.println(Math.round( + geometria_plana.perimetroCirculo(raio)));
+                    } else if (opcaoForma == 2) { 
+                        System.out.println("Digite a base do retângulo (cm): ");
                         double base = ler.nextDouble();
                         System.out.print("Digite a altura do retângulo (cm): ");
                         double altura = ler.nextDouble();

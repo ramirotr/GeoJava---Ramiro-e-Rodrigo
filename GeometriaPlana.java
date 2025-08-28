@@ -31,4 +31,12 @@ public class GeometriaPlana extends Geometria {
     public double areaPoligono(double apotema) {
         return (PerimetroDoPoligono * apotema) / 2;    
     }
+
+    public static double arredondarArea(double area) {
+        return Math.round(area * 100.0) / 100.0;
+    }
+
+    public static double arredondarPerimetro(double perimetro) {
+        return Math.round(perimetro * 100.0) / 100.0;
+    }
 }
